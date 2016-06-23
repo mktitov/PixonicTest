@@ -40,9 +40,9 @@ public class TaskExecutorTest {
         TaskExecutor executor = new TaskExecutor();
         execute(executor, -500);
         execute(executor, -1000);
-        execute(executor, 1000);
-        Thread.sleep(100L);        
-        checkQueue(1, 100);        
+        execute(executor, 500);
+        Thread.sleep(1000L);        
+        checkQueue(3, 100);        
     }
     
     @Test

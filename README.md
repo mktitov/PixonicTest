@@ -21,7 +21,7 @@
 
 Возможно не совсем понял задачу (может необходимо гарантировать выполнение задач после сбоя или, опять же, учитывать тот факт что не все они могут поместиться в RAM)..., поскольку для решения подобной задачи в Java (с версии 1.5) есть  java.util.concurrent.ScheduledThreadPoolExecutor.
 
-В своем проекте (RAVEN) для решения подоюной задачи использую связку (ThreadedPoolExecutor | ForkJoinPool) + DelayQueue
+В своем проекте (RAVEN) для решения подобной задачи использую связку (ThreadedPoolExecutor | ForkJoinPool) + DelayQueue
 
 Тем не менее:
 

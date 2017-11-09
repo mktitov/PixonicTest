@@ -27,3 +27,5 @@
 
 1. Делаем clone|download проекта
 2. mvn test
+
+---
